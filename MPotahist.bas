@@ -16,8 +16,8 @@ Function oGetPOTAHISTConnection() As Object
     connStr = "Provider=SQLOLEDB;" & _
       "Data Source=SKVANMNPAPP08;" & _
       "Initial Catalog=Runtime;" & _
-      "UID=wwUser;" & _
-      "PWD=wwUser"
+      "UID=myusr;" & _
+      "PWD=mypwd"
 
     With oCN
         .ConnectionString = connStr
